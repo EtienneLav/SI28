@@ -1,0 +1,212 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+<title>SR03Trombi</title>
+	<link href='wall.css' rel='stylesheet' />
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" charset="utf-8" src="http://animate.adobe.com/runtime/6.0.0/edge.6.0.0.min.js"></script>
+    <style>
+        .edgeLoad-EDGE-994363302 { visibility:hidden;}
+        .edgeLoad-EDGE-1051128123 { visibility:hidden;}
+
+
+
+    </style>
+</head>
+<body>
+		<article class="poster">
+			<div>
+
+
+				<div class="img">
+
+					<span><img src ="deadpoolbig.png"></span>
+
+				</div>
+
+			</div>
+		</article>
+
+<section class="shelf">
+	<div>
+
+		<!-- Xbox 360 case preview -->
+
+				<a href="#" data-width="1600" data-rel="popLightE" class="poplight">
+
+		<article class="xbox case">
+			<div>
+
+
+				<div class="img">
+
+					<span><img src ="http://www.mdcu-comics.fr/upload/news/news_illustre_1450352843_503.jpg"></span>
+
+				</div>
+
+			</div>
+		</article>
+		 										</a>
+
+	</div>
+</section>
+<section class="shelf">
+	<div>
+
+
+		<!-- Xbox 360 case preview -->
+		<article class="xbox case">
+			<div>
+				<div class="img">
+					<span><img src="http://4.bp.blogspot.com/-F0sLk3GUdYY/U0O5VQ7p-nI/AAAAAAAAILM/gqPQ_D_KUZw/s1600/Deadpool+%28Comics%29+Cover.jpg"></span>
+				</div>
+			</div>
+		</article>
+
+
+
+	</div>
+</section>
+
+<section class="shelf">
+	<div>
+
+		
+
+		
+		<!-- Xbox 360 case preview -->
+		<article class="xbox case">
+			<div>
+				<div class="img">
+					<span><img src="http://4.bp.blogspot.com/-F0sLk3GUdYY/U0O5VQ7p-nI/AAAAAAAAILM/gqPQ_D_KUZw/s1600/Deadpool+%28Comics%29+Cover.jpg"></span>
+				</div>
+			</div>
+		</article>
+
+		<article class="xbox case">
+			<div>
+				<div class="img">
+					<span><img src="http://cdn.shopify.com/s/files/1/0499/0581/products/57_94058283-84d3-43f4-be2c-f04bc39a39b3.jpeg?v=1459365957"></span>
+				</div>
+			</div>
+		</article>
+				<article class="xbox case">
+			<div>
+				<div class="img">
+					<span><img src="http://4.bp.blogspot.com/-F0sLk3GUdYY/U0O5VQ7p-nI/AAAAAAAAILM/gqPQ_D_KUZw/s1600/Deadpool+%28Comics%29+Cover.jpg"></span>
+				</div>
+			</div>
+		</article>
+				<article class="xbox case">
+			<div>
+				<div class="img">
+					<span><img src="http://getcomics.info/share/uploads/2015/04/Deadpool-Kills-Deadpool-1-4.jpg"></span>
+				</div>
+			</div>
+		</article>
+	</div>
+</section>
+
+
+
+<div id="popLightE" class="popup_block" style="display: none; width: 1600px; height:100%; margin-top: -159.5px; margin-left: -290px; overflow-y:auto ; overflow-x:none">
+
+			<div id="Stage1" class="EDGE-994363302"></div>
+			<div id="Stage" class="EDGE-1051128123"></div>
+
+
+</div>
+
+
+
+
+<script>
+
+jQuery(function($){
+
+var TableI = new Array();
+
+
+  //Lorsque vous cliquez sur un lien de la classe poplight
+  $('a.poplight').on('click', function() {
+  
+//  jQuery('<div/>', {
+//    id: 'popup1',
+//  class: 'popup_block',
+//    title: 'Become a Googler',
+//    rel: 'external',
+//    text: '<p>Aliquip transverbero loquor esse ille vulputate exerci veniam fatua eros similis illum valde. Praesent, venio conventio rusticus antehabeo lenis. Melior pertineo feugait, praesent hos rusticus et haero facilisis abluo. </p>
+//'
+//}).css(display: none; width: 500px; margin-top: -159.5px; margin-left: -290px;).appendTo('#mySelector');
+
+    var popID = $(this).data('rel'); //Trouver la pop-up correspondante
+    var popWidth = $(this).data('width'); //Trouver la largeur
+    
+
+
+    $('#' + popID).fadeIn().css({ 'width': popWidth}).prepend('<a href="#" class="close"><img src="close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>');
+        
+
+   AdobeEdge.loadComposition('Sans%20titre-1', 'EDGE-994363302', {
+    scaleToFit: "none",
+    centerStage: "none",
+    minW: "0px",
+    maxW: "undefined",
+    width: "1600px",
+    height: "660px"
+}, {"dom":{}}, {"dom":{}});
+
+
+   AdobeEdge.loadComposition('Sans%20titre-2', 'EDGE-1051128123', {
+    scaleToFit: "none",
+    centerStage: "none",
+    minW: "0%",
+    maxW: "undefined",
+    width: "471px",
+    height: "761px"
+}, {"dom":{}}, {"dom":{}});
+
+
+    //Récupération du margin, qui permettra de centrer la fenêtre - on ajuste de 80px en conformité avec le CSS
+    var popMargTop = ($('#' + popID).height() + 80) / 2;
+    var popMargLeft = ($('#' + popID).width() + 80) / 2;
+    
+    //Apply Margin to Popup
+    $('#' + popID).css({ 
+      'margin-top' : -popMargTop,
+      'margin-left' : -popMargLeft
+    });
+    
+    //Apparition du fond - .css({'filter' : 'alpha(opacity=80)'}) pour corriger les bogues d'anciennes versions de IE
+    $('body').append('<div id="fade"></div>');
+    $('#fade').css({'filter' : 'alpha(opacity=80)'}).fadeIn();
+    
+    return false;
+  });
+  
+  
+  //Close Popups and Fade Layer
+  $('body').on('click', 'a.close, #fade', function() { //Au clic sur le body...
+    $('#fade , .popup_block').fadeOut(function() {
+      $('#fade, a.close').remove();  
+  }); //...ils disparaissent ensemble
+    
+    return false;
+  });
+
+  
+});
+
+</script>
+
+
+
+
+
+
+</body>

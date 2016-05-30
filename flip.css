@@ -1,0 +1,40 @@
+
+#book {
+  background:white;
+  position: absolute;
+  width: 286px;
+  height: 203px;
+  left: 50%;
+  top: 50%;
+  margin-left: -400px;
+  margin-top: -125px;
+}
+
+#pages section {
+  background: white;
+  display: block;
+  width: 142px;
+  height: 203px;
+  position: absolute;
+  overflow: hidden;
+}
+#pages section>div {
+  display: block;
+  width: 142;
+  height: 203;
+  font-size: 12px;
+}
+#pages section p,
+#pages section h2 {
+  padding: 3px 35px;
+  line-height: 1.4em;
+  text-align: justify;
+}
+#pages section h2{
+  margin: 15px 0 10px;
+}
+
+#pageflip-canvas {
+  position: absolute;
+  z-index: 100;
+}
