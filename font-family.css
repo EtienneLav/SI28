@@ -1,0 +1,14 @@
+
+@font-face {
+  font-family: 'HEROICCONDENSED';
+  src: url("fonts/HEROICCONDENSED-THIN.eot");
+  src: url("fonts/HEROICCONDENSED-THIN.eot?#iefix") format("embedded-opentype"), url("fonts/HEROICCONDENSED-THIN.ttf") format("truetype"), url("fonts/HEROICCONDENSED-THIN.svg#HEROICCONDENSED-THIN") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'HEROICCONDENSED';
+  src: url("fonts/HEROICCONDENSED-REGULAR.eot");
+  src: url("fonts/HEROICCONDENSED-REGULAR.eot?#iefix") format("embedded-opentype"), url("fonts/HEROICCONDENSED-REGULAR.woff") format("woff"), url("fonts/HEROICCONDENSED-REGULAR.ttf") format("truetype"), url("fonts/HEROICCONDENSED-REGULAR.svg#HEROICCONDENSED-REGULAR") format("svg");
+  font-weight: normal;
+  font-style: normal; }

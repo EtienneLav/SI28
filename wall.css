@@ -360,6 +360,7 @@ overflow-x:none;
 img.btn_close {
 	float: right;
 	margin: -55px -55px 0 0;
+	z-index: 100;
 }
 /*--Gérer la position fixed pour IE6--*/
 *html #fade {
@@ -369,6 +370,26 @@ position: absolute;
 position: absolute;
 }
 
+/*--------------- Crédits ----------------*/
+
+section.credits{
+	font-family: 'HEROICCONDENSED';
+	left : 75%;
+	font-size: 30px;
+	position: absolute;
+	margin-top: -150px;
+}
+
+section.credits .nom{
+	text-align: center;
+	font-size: 35px;
+	line-height: 38px;
+}
+
+span.monsieur{
+	text-decoration: underline;
+}
+/*----------------------------------------*/
 
 
 .poster_gauche  {
