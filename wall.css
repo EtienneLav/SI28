@@ -371,16 +371,28 @@ position: absolute;
 
 
 
-.poster {
+.poster_gauche  {
 	display: inline-block;
 	width: 400px;
 	height: 225px;
 	border-radius: 5px;
 	position: absolute;
 	z-index: 1;
+	top: 27%;
 }
 
-.poster:after {
+.poster_droite{
+	display: inline-block;
+	width: 400px;
+	height: 225;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 1;
+	top: 27%;
+	left : 79%;
+}
+
+.poster_gauche:after, .poster_droite:after {
 	width: 100%;
 	height: 10px;
 	border-radius: 20px;
@@ -397,7 +409,7 @@ position: absolute;
 	left: 0;
 }
 
-	.poster > div {
+	.poster_droite > div , .poster_gauche > div{
 		width: 100%;
 		height: 100%;
 		background: #46b0e9;
@@ -407,7 +419,7 @@ position: absolute;
 		position: relative;
 	}
 	
-	.poster > div:after {
+	.poster_droite > div:after, .poster_gauche > div:after {
 		content: "";
 		position: absolute;
 		top: 0;
@@ -424,7 +436,7 @@ position: absolute;
 	}
 
 
-		.poster > div > .img {
+		.poster_gauche > div > .img, .poster_droite > div > .img {
 			-webkit-box-sizing: border-box;
 			   -moz-box-sizing: border-box;
 			        box-sizing: border-box;
@@ -436,7 +448,7 @@ position: absolute;
 			position: relative;
 		}
 		
-		.poster > div > .img:before {
+		.poster_gauche > div > .img:before, .poster_droite > div > .img:before {
 			content: "";
 			position: absolute;
 			top: -10px;
@@ -448,7 +460,7 @@ position: absolute;
 			z-index: 3;
 		}
 		
-		.poster > div > .img:after {
+		.poster_gauche > div > .img:after, .poster_droite > div > .img:after {
 			content: "";
 			position: absolute;
 			top: -13px;
@@ -459,7 +471,7 @@ position: absolute;
 			border-radius: 8px;
 		}
 		
-			.poster > div > .img > span {
+			.poster_gauche > div > .img > span, .poster_droite > div > .img > span {
 				-webkit-box-sizing: border-box;
 				   -moz-box-sizing: border-box;
 				        box-sizing: border-box;
@@ -472,7 +484,7 @@ position: absolute;
 				position: relative;
 			}
 			
-			.poster > div > .img > span:before {
+			.poster_gauche > div > .img > span:before , .poster_droite > div > .img > span:before {
 				position: absolute;
 				top: 2px;
 				left: 0;
@@ -483,7 +495,7 @@ position: absolute;
 				z-index: 2;
 			}
 			
-			.poster > div > .img > span:after {
+			.poster_gauche > div > .img > span:after, .poster_droite > div > .img > span:after {
 				position: absolute;
 				top: 5px;
 				left: 0;
@@ -494,7 +506,7 @@ position: absolute;
 				z-index: 1;
 			}
 			
-				.poster > div > .img > span > img {
+				.poster_gauche > div > .img > span > img, .poster_droite > div > .img > span > img {
 					width: 100%;
 					height: 100%;
 					display: block;
