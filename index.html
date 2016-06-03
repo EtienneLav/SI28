@@ -154,7 +154,7 @@
 			<div id="Stage5" class="EDGE-473478277" style="display:inline-block; margin:5px; overflow:hidden;"></div>
 			<div id="Stage3" class="EDGE-471017009" style="display:inline-block; margin:5px; overflow:hidden;"></div>
 </div>
-			<div id="Stage1" class="EDGE-994363302"></div>
+			<div id="Stage1" class="EDGE-994363302" style="overflow: hidden;"></div>
 			<div id = "Case1PageBas" style="display:inline;">
 
 			<div id="Stage2" class="EDGE-369672589" style="display:inline-block; margin:5px; overflow:hidden;"></div>
@@ -281,10 +281,44 @@ var TableI = new Array();
 });
 
 </script>
+<script type="text/javascript">
+
+	$("#Stage1").css('opacity', 0);
+    $("#Stage2").css('opacity', 0);
+    $("#Stage4").css('opacity', 0);
+    $("#Stage6").css('opacity', 0);
+
+    //la seule fonction sur le scroll
+    $(function () {
+        $('#popLightE').scroll(function () {
+            if ($('#popLightE').scrollTop() > 200) {
+            	$("#Stage1").css('opacity', 1);
+            }
+            else {
+                $("#Stage1").css('opacity', 0);
+            }
+
+            if ($(this).scrollTop() > 600) {
+                $("#Stage2").css('opacity', 1);
+                
+            } else {
+                $("#Stage2").css('opacity', 0);
+            }
+
+             if ($(this).scrollTop() > 880) {
+                $("#Stage4").css('opacity', 1);
+                
+            } else {
+                $("#Stage4").css('opacity', 0);
+            }
 
 
-
-
-
+            if ($(this).scrollTop() > 1200) {
+                $("#Stage6").css('opacity', 1);
+            } else {
+                $("#Stage6").css('opacity', 0);
+            }
+        })});
+</script>
 
 </body>
