@@ -537,3 +537,45 @@ span.monsieur{
 					display: block;
 					border-radius: 0 3px 3px 0;
 				}
+
+
+    #spriteContainer {
+    	position:absolute;
+      width: 478px;
+      height: 218px;
+      display: block;
+      top:0;
+      left:30px;
+        background-image: url("sprr.png");
+-webkit-animation: play 7s steps(70) infinite;
+       -moz-animation: play 7s steps(70) infinite;
+        -ms-animation: play 7s steps(70) infinite;
+         -o-animation: play 7s steps(70) infinite;
+            animation: play 7s steps(70) infinite;    
+        }
+
+
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -33460px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -33460px; }
+}
+
+@-ms-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -33460px; }
+}
+
+@-o-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -33460px; }
+}
+
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -33460px; }
+}
