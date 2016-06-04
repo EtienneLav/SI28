@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 
-<title>SR03Trombi</title>
+<title>SI28-ANIM'ACTION</title>
 	<link href='wall.css' rel='stylesheet' />
 	<link href='font-family.css' rel='stylesheet' />
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
@@ -105,7 +105,7 @@
 		<article class="xbox case">
 			<div>
 				<div class="img">
-					<span><img src="http://media.senscritique.com/media/000008303989/source_big/Deadpool_Les_Origines.jpg"></span>
+					<span><img src="http://i2.wp.com/getcomics.info/share/uploads/2015/03/Deadpool-2008-2012-1000-000.jpg?fit=480%2C738"></span>
 				</div>
 			</div>
 		</article>
@@ -113,7 +113,7 @@
 		<article class="xbox case">
 			<div>
 				<div class="img">
-					<span><img src="http://media.senscritique.com/media/000008250619/source_big/Deadpool_massacre_Marvel.jpg"></span>
+					<span><img src="http://i1.wp.com/getcomics.info/share/uploads/2015/04/Deadpool-Kills-the-Marvel-Universe-1-4.jpg?fit=480%2C738"></span>
 				</div>
 			</div>
 		</article>
@@ -287,40 +287,65 @@ var TableI = new Array();
 </script>
 <script type="text/javascript">
 
-	$("#Stage1").css('opacity', 0);
-    $("#Stage2").css('opacity', 0);
-    $("#Stage4").css('opacity', 0);
-    $("#Stage6").css('opacity', 0);
+	$("#Stage1").css('opacity', 0.1);
+    $("#Stage2").css('opacity', 0.1);
+    $("#Stage4").css('opacity', 0.1);
+    $("#Stage6").css('opacity', 0.1);
 
     //la seule fonction sur le scroll
     $(function () {
         $('#popLightE').scroll(function () {
-            if ($('#popLightE').scrollTop() > 200) {
-            	$("#Stage1").css('opacity', 1);
+            if ($(this).scrollTop() > 300) {
+            	$("#Stage1").animate(
+            		{
+            			opacity: 1
+            		}, 90);
             }
             else {
-                $("#Stage1").css('opacity', 0);
+                $("#Stage1").animate(
+                	{
+                		opacity: 0.1
+                	}, 30);
             }
 
-            if ($(this).scrollTop() > 600) {
-                $("#Stage2").css('opacity', 1);
-                
-            } else {
-                $("#Stage2").css('opacity', 0);
+            if ($(this).scrollTop() > 550) {
+                $("#Stage2").animate(
+            		{
+            			opacity: 1
+            		}, 90);
+            }
+            else {
+                $("#Stage2").animate(
+                	{
+                		opacity: 0.1
+                	}, 30);
+            
             }
 
-             if ($(this).scrollTop() > 880) {
-                $("#Stage4").css('opacity', 1);
-                
-            } else {
-                $("#Stage4").css('opacity', 0);
+             if ($(this).scrollTop() > 800) {
+                $("#Stage4").animate(
+            		{
+            			opacity: 1
+            		}, 100);
+            }
+            else {
+                $("#Stage4").animate(
+                	{
+                		opacity: 0.1
+                	}, 30);
             }
 
-
-            if ($(this).scrollTop() > 1200) {
-                $("#Stage6").css('opacity', 1);
-            } else {
-                $("#Stage6").css('opacity', 0);
+            if ($(this).scrollTop() > 1000) {
+                $("#Stage6").animate(
+            		{
+            			opacity: 1
+            		}, 200);
+            }
+             else {
+                $("#Stage6").animate(
+                	{
+                		opacity: 0.1
+                	}, 30);
             }
         })});
 </script>
