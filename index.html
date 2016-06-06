@@ -11,6 +11,8 @@
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="js/turn.js" type="text/javascript"></script>
 	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <!--Adobe Edge Runtime-->
+
     <script type="text/javascript" charset="utf-8" src="http://animate.adobe.com/runtime/6.0.0/edge.6.0.0.min.js"></script>
     <style>
 
@@ -36,8 +38,7 @@
 
 
     </style>
-</head>
-<body>
+
 <script>
 
  AdobeEdge.loadComposition('F1C1', 'EDGE-369672589', {
@@ -75,10 +76,68 @@
     height: "536px"
 }, {"dom":{}}, {"dom":{}});
 
+
+   AdobeEdge.loadComposition('F1C4', 'EDGE-473478277', {
+    scaleToFit: "none",
+    centerStage: "none",
+    minW: "0px",
+    maxW: "undefined",
+    width: "723px",
+    height: "618px"
+}, {"dom":{}}, {"dom":{}});
+
+
+   AdobeEdge.loadComposition('F1C5', 'EDGE-470297926', {
+    scaleToFit: "none",
+    centerStage: "none",
+    minW: "0px",
+    maxW: "undefined",
+    width: "678px",
+    height: "519px"
+}, {"dom":{}}, {"dom":{}});
+
+   AdobeEdge.loadComposition('F2C5', 'EDGE-101257728', {
+    scaleToFit: "none",
+    centerStage: "none",
+    minW: "0px",
+    maxW: "undefined",
+    width: "453px",
+    height: "746px"
+}, {"dom":{}}, {"dom":{}});
+
+AdobeEdge.loadComposition('F2C2', 'EDGE-20516970', {
+    scaleToFit: "none",
+    centerStage: "none",
+    minW: "0px",
+    maxW: "undefined",
+    width: "495px",
+    height: "961px"
+}, {"dom":{}}, {"dom":{}});
+
+   AdobeEdge.loadComposition('F2C1', 'EDGE-18166240', {
+    scaleToFit: "none",
+    centerStage: "none",
+    minW: "0px",
+    maxW: "undefined",
+    width: "1601px",
+    height: "2495px"
+}, {"dom":{}}, {"dom":{}});
+
+   AdobeEdge.loadComposition('F2C3', 'EDGE-38431997', {
+    scaleToFit: "none",
+    centerStage: "none",
+    minW: "0px",
+    maxW: "undefined",
+    width: "722px",
+    height: "746px"
+}, {"dom":{}}, {"dom":{}});
 </script>
+<!--Adobe Edge Runtime End-->
 
-
+</head>
+<body>
   <div id="spriteContainer"></div>
+  <div id="spriteContainer1"></div>
 
 		<article class="poster_gauche">
 			<div>
@@ -206,6 +265,17 @@
 
 
 <div id="popLightE" class="popup_block" style="display: none; width: 1600px; height:100%; margin-top: -159.5px; margin-left: -290px; overflow-y:auto ; overflow-x:none; background-image:url(feuilles.jpeg) ; background-repeat:no-repeat; background-size: 100%;">
+        <div id="dpbas" style="position:fixed; bottom:0; left:50px; z-index:100000;user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none; "><img src="dpbas.png" style=" user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;"></div>
 
     <div id="BD">
         <div class="hard"> ACCUEIL </div>
@@ -252,7 +322,9 @@
 
 
         <div id="Feuille2" style="margin-top:50px;">
-
+        <div id="carte1" style="position:absolute;  z-index: 100000; top:1200px; left:-14050x;"><img src="carte2F2C1.png"></div>
+        <div id="carte2" style="position:absolute;   z-index: 100000; top:1100px left:-14050x;"><img src="carte5F2C1.png"></div>
+        <div id="carte3" style="position:absolute;  z-index: 100000; top:1000px; left: -14050x;"><img src="carteretourneeF2C1.png"></div>
             <div id="StageF2C3" class="EDGE-18166240"  style="position: relative; display:inline-block; overflow:hidden;"></div>
 
             <div id = "Feuille2Bas" style="display:inline;">
@@ -297,6 +369,9 @@
             $("#StageF2C1").hide();
             $("#StageF2C2").hide();
             $("#StageF2C3").hide();
+            $("#carte1").hide();
+            $("#carte2").hide();
+            $("#carte3").hide();
 
             $("#StageF1C1").show();
             $("#StageF1C2").show();
@@ -326,7 +401,9 @@
             $("#StageF2C4").css('opacity', 0.1);
             $("#StageF2C5").css('opacity', 0.1);
 
-
+            $("#carte1").show();
+            $("#carte2").show();
+            $("#carte3").show();
             $("#StageF2C4").show();
             $("#StageF2C5").show();
             $("#StageF2C1").show();
@@ -370,61 +447,6 @@ var TableI = new Array();
 ////////////////////////
 
 
-
-   AdobeEdge.loadComposition('F1C4', 'EDGE-473478277', {
-    scaleToFit: "none",
-    centerStage: "none",
-    minW: "0px",
-    maxW: "undefined",
-    width: "723px",
-    height: "618px"
-}, {"dom":{}}, {"dom":{}});
-
-
-   AdobeEdge.loadComposition('F1C5', 'EDGE-470297926', {
-    scaleToFit: "none",
-    centerStage: "none",
-    minW: "0px",
-    maxW: "undefined",
-    width: "678px",
-    height: "519px"
-}, {"dom":{}}, {"dom":{}});
-
-   AdobeEdge.loadComposition('F2C5', 'EDGE-101257728', {
-    scaleToFit: "none",
-    centerStage: "none",
-    minW: "0px",
-    maxW: "undefined",
-    width: "453px",
-    height: "746px"
-}, {"dom":{}}, {"dom":{}});
-
-AdobeEdge.loadComposition('F2C2', 'EDGE-20516970', {
-    scaleToFit: "none",
-    centerStage: "none",
-    minW: "0px",
-    maxW: "undefined",
-    width: "495px",
-    height: "961px"
-}, {"dom":{}}, {"dom":{}});
-
-   AdobeEdge.loadComposition('F2C1', 'EDGE-18166240', {
-    scaleToFit: "none",
-    centerStage: "none",
-    minW: "0px",
-    maxW: "undefined",
-    width: "1601px",
-    height: "2495px"
-}, {"dom":{}}, {"dom":{}});
-
-   AdobeEdge.loadComposition('F2C3', 'EDGE-38431997', {
-    scaleToFit: "none",
-    centerStage: "none",
-    minW: "0px",
-    maxW: "undefined",
-    width: "722px",
-    height: "746px"
-}, {"dom":{}}, {"dom":{}});
 
 
 ///////////////////////
@@ -482,16 +504,20 @@ AdobeEdge.loadComposition('F2C2', 'EDGE-20516970', {
                     {
                         opacity: 1
                     }, 90);
+
+
             }
             else {
                 $("#StageF1C3").animate(
                     {
                         opacity: 0.1
                     }, 30);
+
                 $("#StageF2C3").animate(
                     {
                         opacity: 0.1
                     }, 30);
+
             }
 
             if ($(this).scrollTop() > 550) {
@@ -499,12 +525,31 @@ AdobeEdge.loadComposition('F2C2', 'EDGE-20516970', {
                     {
                         opacity: 1
                     }, 90);
+                                         $("#carte2").animate(
+                        {
+                                    left: "+=10px",
+                                    top: "+=10px",
+                        }, 10);
+                            $("#carte3").animate(
+                        {
+                                    left: "+=10px",
+                                 top: "+=10px",
+
+                        }, 10);
+                            $("#carte1").animate(
+                        {
+                                    left: "+=10px",
+                                       top: "+=10px",
+
+                        }, 10);
+ 
             }
             else {
                 $("#StageF1C4").animate(
                     {
                         opacity: 0.1
                     }, 30);
+
             }
 
             if ($(this).scrollTop() > 790) {
@@ -512,12 +557,14 @@ AdobeEdge.loadComposition('F2C2', 'EDGE-20516970', {
                     {
                         opacity: 1
                     }, 90);
+
             }
             else {
                 $("#StageF2C4").animate(
                     {
                         opacity: 0.1
                     }, 30);
+
             }
 
             if ($(this).scrollTop() > 800) {
@@ -525,6 +572,7 @@ AdobeEdge.loadComposition('F2C2', 'EDGE-20516970', {
                     {
                         opacity: 1
                     }, 100);
+
             }
             else {
                 $("#StageF1C5").animate(
@@ -538,6 +586,7 @@ AdobeEdge.loadComposition('F2C2', 'EDGE-20516970', {
                     {
                         opacity: 1
                     }, 100);
+
             }
             else {
                 $("#StageF2C5").animate(
@@ -551,12 +600,53 @@ AdobeEdge.loadComposition('F2C2', 'EDGE-20516970', {
                     {
                         opacity: 1
                     }, 200);
+ 
             }
              else {
                 $("#StageF1C6").animate(
                     {
                         opacity: 0.1
                     }, 30);
+            }
+
+            if (($(this).scrollTop() > 0) && ($(this).scrollTop() < 200)) {
+                                         $("#dpbas").animate(
+                        {
+                                    left: "50px",
+                        }, 10);
+            }
+
+            if (($(this).scrollTop() > 200) && ($(this).scrollTop() < 500)) {
+                                         $("#dpbas").animate(
+                        {
+                                    left: "350px",
+                        }, 10);
+            }
+
+            if (($(this).scrollTop() > 500) && ($(this).scrollTop() < 800)) {
+                                         $("#dpbas").animate(
+                        {
+                                    left: "650px",
+
+                        }, 10);
+
+            }
+            if (($(this).scrollTop() > 800) && ($(this).scrollTop() < 1000)) {
+                                         $("#dpbas").animate(
+                        {
+                                    left: "950px",
+
+                        }, 10);
+                                         
+            }
+
+                        if (($(this).scrollTop() > 1000) && ($(this).scrollTop() < 1200)) {
+                                         $("#dpbas").animate(
+                        {
+                                    left: "1150px",
+
+                        }, 10);
+                                         
             }
         })});
 </script>

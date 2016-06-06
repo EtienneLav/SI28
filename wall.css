@@ -544,7 +544,7 @@ span.monsieur{
       height: 218px;
       display: block;
       top:0;
-      left:30px;
+      left:350px;
         background-image: url("sprr.png");
 -webkit-animation: play 7s steps(70) infinite;
        -moz-animation: play 7s steps(70) infinite;
@@ -577,4 +577,46 @@ span.monsieur{
 @keyframes play {
    from { background-position:    0px; }
      to { background-position: -33460px; }
+}
+
+
+    #spriteContainer1 {
+    	position:absolute;
+      width: 558px;
+      height: 218px;
+      display: block;
+      top:0;
+      right:240px;
+        background-image: url("spriteActionn.png");
+-webkit-animation: play1 7s steps(70) infinite;
+       -moz-animation: play1 7s steps(70) infinite;
+        -ms-animation: play1 7s steps(70) infinite;
+         -o-animation: play1 7s steps(70) infinite;
+            animation: play1 7s steps(70) infinite;    
+        }
+
+
+@-webkit-keyframes play1 {
+   from { background-position:    0px; }
+     to { background-position: -39060px; }
+}
+
+@-moz-keyframes play1 {
+   from { background-position:    0px; }
+     to { background-position: -339060px; }
+}
+
+@-ms-keyframes play1 {
+   from { background-position:    0px; }
+     to { background-position: -39060px; }
+}
+
+@-o-keyframes play1 {
+   from { background-position:    0px; }
+     to { background-position: -39060px; }
+}
+
+@keyframes play1 {
+   from { background-position:    0px; }
+     to { background-position: -39060px; }
 }
